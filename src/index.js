@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     else if(wholeForm[1].value = 'Edit Item') {  
       listenForEdit
+      listenForCreate()
       }
   }
   createOrEdit()
